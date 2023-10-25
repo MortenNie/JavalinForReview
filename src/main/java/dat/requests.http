@@ -1,0 +1,22 @@
+GET http://localhost:7008/api/users/user1
+Authorization: login token
+
+###
+
+POST http://localhost:7008/api/users/name
+Content-Type: application/json
+Authorization: login token
+
+{
+
+  "name":  "John Doe"}
+
+###
+
+GET http://localhost:7008/api/users/user2
+Authorization: login token
+
+###
+
+GET http://localhost:7008/api/users/
+Authorization: login token
