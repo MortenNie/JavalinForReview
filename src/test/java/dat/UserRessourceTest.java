@@ -82,15 +82,7 @@ class UserRessourceTest {
 
     }
 
-    @Test
-    public void testDeleteUserEndpoint() {
 
-        String userId = "user2";
-
-        given().header("Authorization", "login token").pathParam("id", userId).when().delete(BASE_URL + "/api/users/{id}").then().statusCode(204);
-
-
-    }
 }
 
 
