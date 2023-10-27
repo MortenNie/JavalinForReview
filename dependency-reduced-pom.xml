@@ -21,7 +21,7 @@
         <configuration>
           <transformers>
             <transformer>
-              <mainClass>ExampleJavalinForReview/src/main/java/dat/Main</mainClass>
+              <mainClass>dat.Main</mainClass>
             </transformer>
           </transformers>
           <filters>
