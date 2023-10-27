@@ -10,7 +10,7 @@ import lombok.Setter;
 class User {
     private String id;
 
-    
+
     private String name;
 
     User(String id, String name) {
