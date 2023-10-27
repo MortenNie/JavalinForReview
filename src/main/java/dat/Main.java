@@ -1,10 +1,5 @@
 package dat;
-import io.javalin.Javalin;
-import lombok.Getter;
-import lombok.Setter;
 
-import java.util.HashMap;
-import java.util.Map;
 
 public class Main {
 
