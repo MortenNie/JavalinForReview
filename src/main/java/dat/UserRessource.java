@@ -1,7 +1,7 @@
 package dat;
 
+import dat.User;
 import io.javalin.Javalin;
-import io.javalin.apibuilder.EndpointGroup;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -44,7 +44,7 @@ public class UserRessource {
                 if (user != null) {
                     ctx.json(user);
                 } else {
-                    ctx.status(404).result("User not found");
+                    ctx.status(404).result("dat.User not found");
                 }
             });
 
