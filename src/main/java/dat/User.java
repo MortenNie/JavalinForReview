@@ -9,6 +9,8 @@ import lombok.Setter;
 @NoArgsConstructor
 class User {
     private String id;
+
+    
     private String name;
 
     User(String id, String name) {

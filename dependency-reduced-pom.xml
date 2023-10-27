@@ -21,7 +21,7 @@
         <configuration>
           <transformers>
             <transformer>
-              <mainClass>dat.Main</mainClass>
+              <mainClass>dat/Main</mainClass>
             </transformer>
           </transformers>
           <filters>
